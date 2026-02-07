@@ -8,7 +8,7 @@ const Testimonials = () => {
       id: 1,
       name: "Rohan Sharma",
       role: "iPhone 14 User",
-      text: "Mera screen puri tarah crack ho gaya tha. SmartFix ne 40 mins mein thik kar diya!",
+      text: "Mera screen puri tarah crack ho gaya tha. Phone Service Center ne 40 mins mein thik kar diya!",
       rating: 5,
       img: "https://i.pravatar.cc/150?u=1",
     },

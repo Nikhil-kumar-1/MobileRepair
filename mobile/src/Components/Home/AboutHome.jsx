@@ -15,7 +15,7 @@ const HomeAbout = () => {
       {/* Background Decorative Element */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden opacity-[0.03] select-none">
         <h1 className="text-[20rem] font-black italic -rotate-12 translate-x-[-10%] translate-y-[20%]">
-          SMARTFIX
+          Phone Service Center
         </h1>
       </div>
 
@@ -64,9 +64,9 @@ const HomeAbout = () => {
             </div>
 
             <p className="text-slate-500 text-lg font-medium leading-relaxed max-w-xl">
-              At SmartFix, we don't just replace screens; we restore your
-              connection to the world. Our lab combines surgical precision with
-              factory-grade components to give your device a second life.
+              At Phone Service Center, we don't just replace screens; we restore
+              your connection to the world. Our lab combines surgical precision
+              with factory-grade components to give your device a second life.
             </p>
 
             {/* Feature Icons Grid */}

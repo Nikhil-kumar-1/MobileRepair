@@ -6,23 +6,28 @@ import Footer from "./Components/Footer/Footer";
 import ServicesPage from "./Pages/Service";
 import AboutPage from "./Pages/About";
 import ContactPage from "./Pages/Contact";
+import ScrollToTop from "./Components/ScrollOnTop";
+import PrivacyPage from "./Pages/Privacy";
+import TermsPage from "./Pages/Terms";
 
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="app">
         <Navbar />
 
         <Routes>
-         <Route path="/" element={<Home />} />
-         <Route path="/services" element={<ServicesPage />} />
-         <Route path="/about" element={<AboutPage/>} />
-         <Route path="/contact" element={<ContactPage/> }/>
-        
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/terms" element={<TermsPage />} />
         </Routes>
 
-        <Footer/>
+        <Footer />
       </div>
     </BrowserRouter>
   );
