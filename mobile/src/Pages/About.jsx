@@ -39,7 +39,7 @@ const AboutPage = () => {
             <span className="text-cyan-600 font-black uppercase tracking-[0.6em] text-[11px] block mb-6">
               Founded 2014 • Master Engineering Group
             </span>
-            <h1 className="text-7xl md:text-[10rem] font-black italic uppercase tracking-tighter leading-[0.8] text-slate-900">
+            <h1 className="text-4xl md:text-[10rem] font-black italic uppercase tracking-tighter leading-[0.8] text-slate-900">
               CRAFTING <br />
               <span
                 className="text-white"
@@ -59,7 +59,7 @@ const AboutPage = () => {
             <div className="inline-block bg-slate-900 text-cyan-400 px-4 py-1 mb-6 text-[10px] font-black uppercase tracking-widest skew-x-[-15deg]">
               Expertise Level: 04
             </div>
-            <h2 className="text-5xl md:text-7xl font-black uppercase italic tracking-tighter text-slate-900 mb-10 leading-none">
+            <h2 className="text-4xl md:text-5xl font-black uppercase italic tracking-tighter text-slate-900 mb-10 leading-none">
               Beyond Repair. <br />
               <span className="text-cyan-500">Pure Engineering.</span>
             </h2>

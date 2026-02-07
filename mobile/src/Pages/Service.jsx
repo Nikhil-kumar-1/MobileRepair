@@ -180,7 +180,7 @@ const ServicesPage = () => {
             className="border-l-8 border-cyan-500 pl-8"
             data-aos="fade-right"
           >
-            <h1 className="text-6xl md:text-9xl font-black italic uppercase tracking-tighter leading-none text-slate-900">
+            <h1 className="text-4xl md:text-9xl font-black italic uppercase tracking-tighter leading-none text-slate-900">
               REPAIR <br />
               <span
                 className="text-white"

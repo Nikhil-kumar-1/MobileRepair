@@ -65,7 +65,7 @@ const ContactPage = () => {
               <h3 className="text-[10px] font-black uppercase tracking-[0.4em] text-slate-400 group-hover:text-cyan-500 mb-2">
                 {item.title}
               </h3>
-              <p className="text-xl md:text-2xl font-black italic uppercase text-slate-900 group-hover:text-white mb-2 tracking-tighter">
+              <p className="text-l md:text-2xl font-black italic uppercase text-slate-900 group-hover:text-white mb-2 tracking-tighter">
                 {item.info}
               </p>
               <p className="text-slate-400 text-[10px] font-bold uppercase tracking-widest group-hover:text-slate-500">
